@@ -13,7 +13,7 @@ function Get() {
   return (
     <div>
       <Navigation />
-      <h1 className="mt-5">{getData.csrf_token}</h1>
+      <h1 className="mt-5 text-center text-danger">{getData.csrf_token}</h1>
     </div>
   );
 }

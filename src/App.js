@@ -8,7 +8,7 @@ import Navigation from "./Components/Navigation";
 
 function App() {
   return (
-    <div className="container mt-5">
+    <div>
       <Router>
         <Switch>
           <Route exact path="/">

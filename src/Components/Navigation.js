@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Navigation() {
   return (
     <div>
-      <Nav activeKey="/home" className="bg-light">
-        <Nav.Item className="mr-5">
+      <Nav activeKey="/home" className="bg-dark" >
+        <Nav.Item className="mr-5 text-white">
           <Link to="/">Home</Link>
         </Nav.Item>
-        <Nav.Item className="mr-5">
+        <Nav.Item className="mr-5 text-white">
           <Link to="/get">Get</Link>
         </Nav.Item>
-        <Nav.Item className="mr-5">
+        <Nav.Item className="mr-5 text-white">
           <Link to="/post">Post</Link>
         </Nav.Item>
         <Nav.Item></Nav.Item>
